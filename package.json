@@ -1,0 +1,19 @@
+{
+  "name": "projeto-final-cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cypress.config.js",
+  "scripts": {
+    "test": "cypress run --browser electron",
+    "cy:open": "cypress open",
+    "test:final": "cypress run --browser electron --spec cypress/e2e/trabalho-final.cy.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "cypress": "^16.2.1",
+    "cypress-mochawesome-reporter": "^5.0.0"
+  }
+}
